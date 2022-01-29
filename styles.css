@@ -44,13 +44,13 @@ nav ul li a:hover{
 .header{
 	background-color: rgba(56, 56, 56, 0.534);
 	margin-top: 20px;
-	height: 60px;
+	height: 65px;
 	width: 100%;
-	font-size:30px;
+	font-size:15px;
 	padding-left: 30px;
 	font-family:fantasy;
 	color: white;
-	letter-spacing: 4px;
+	letter-spacing: 2px;
 	border-radius: 5px;
 }
 img {
@@ -62,7 +62,6 @@ img {
 } 
 .column {
   float: left;
-  width: 50%;
   padding:40px;
   cursor: pointer;
 }
@@ -74,16 +73,22 @@ img {
 .border_right {
     width: 25%;
 	font-size: smaller;
+	margin-top: 25px;
 }
 .border_left {
     width: 70%;
 	color: white;
 	text-decoration: yellow;
 	background-color: transparent;
+	overflow-y: scroll;
+	height: 450px;
+	scrollbar-width: none;
+}
+.border_left::-webkit-scrollbar {
+    display: none;
 }
 .row{
 	background-color: rgba(31, 31, 31, 0.652);
-	height: fit-content;
 	margin-top: 10px;
 	border-radius: 2%;
 }
