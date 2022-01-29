@@ -41,9 +41,21 @@ nav ul li a{
 nav ul li a:hover{
 	color: rgba(192, 192, 192, 0.534);
 }
+.header{
+	background-color: rgba(56, 56, 56, 0.534);
+	margin-top: 100px;
+	height: 60px;
+	width: 100%;
+	font-size:30px;
+	padding-left: 30px;
+	font-family:fantasy;
+	color: white;
+	letter-spacing: 4px;
+	border-radius: 5px;
+}
 img {
     border-radius: 50%;
-  }
+}
 .borderbox {
   box-sizing: border-box;
   border-radius: 50px;
@@ -51,8 +63,9 @@ img {
 .column {
   float: left;
   width: 50%;
-  padding: 40px;
-  height: 500px; 
+  padding:40px;
+  cursor: pointer;
+  margin-top: 200px;
 }
 .row:after {
   content: "";
@@ -64,4 +77,14 @@ img {
 }
 .border_left {
     width: 70%;
+	color: white;
+	text-decoration: yellow;
+	background-color: transparent;
+}
+.row{
+	background-color: rgba(31, 31, 31, 0.652);
+	height: fit-content;
+	margin-top: 10px;
+	border-radius: 2%;
+	font-size: larger;
 }
