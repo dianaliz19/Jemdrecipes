@@ -51,10 +51,16 @@ img {
   float: left;
   width: 50%;
   padding: 40px;
-  height: 350px; 
+  height: 500px; 
 }
 .row:after {
   content: "";
   display: table;
   clear: both;
+}
+.border_right {
+    width: 25%;
+}
+.border_left {
+    width: 70%;
 }
