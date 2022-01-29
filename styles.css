@@ -44,7 +44,7 @@ nav ul li a:hover{
 img {
     border-radius: 50%;
   }
-* {
+.borderbox {
   box-sizing: border-box;
   border-radius: 50px;
 } 
