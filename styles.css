@@ -46,12 +46,13 @@ nav ul li a:hover{
 	margin-top: 20px;
 	height: 65px;
 	width: 100%;
-	font-size:15px;
+	font-size:20px;
 	padding-left: 30px;
-	font-family:fantasy;
+	font-family: 'Eater', cursive;
 	color: white;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 	border-radius: 5px;
+	padding-top: 6px;
 }
 img {
     border-radius: 50%;
@@ -81,7 +82,7 @@ img {
 	text-decoration: yellow;
 	background-color: transparent;
 	overflow-y: scroll;
-	height: 450px;
+	height: 470px;
 	scrollbar-width: none;
 }
 .border_left::-webkit-scrollbar {
